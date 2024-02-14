@@ -4,7 +4,7 @@ External tree for [buildroot](https://buildroot.org) to build RaspberryPi4 based
 secure push-to-talk (ptt) firmware image. Please note that this code is under
 development and does not offer product like implementation just yet. 
 
-![rpi4ptt](https://github.com/resiliencetheatre/rpi4ptt/blob/rpi4ptt/doc/rpi4ptt.png?raw=true)
+![rpi4ptt](https://raw.githubusercontent.com/resiliencetheatre/rpi4ptt/main/doc/rpi4ptt.png?raw=true)
 
 This development release does not (yet) contain provisioning environment, which
 configures communication and One-Time-Pad keying of units. You need to have provisioning
