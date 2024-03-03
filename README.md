@@ -86,4 +86,10 @@ After build is completed, you find image file for MicroSD card at:
 ~/build-directory/buildroot/output/images/sdcard.img
 ```
 
+## Patching iqaudio driver
+
+You can optionally patch iqaudio-codec.c driver to remove really anoying 
+delay on audio opening. Download [this patch](https://gist.github.com/resiliencetheatre/9b9323e37b81a49a5724f68c04ac7dff)
+and place it under buildroot/linux/ before build.
+
 
