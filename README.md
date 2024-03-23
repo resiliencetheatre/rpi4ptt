@@ -34,9 +34,10 @@ One-Time-Pad to and from other similar nodes.
 Please note that this is embedded software 'firmware' and it's not based on any
 "raspberry pi distribution" as such. This implementation aligns to D.I.E model.
 
-## Keying
+## Initialization
 
-Keying happens with 'provisioning environment' which I plan to release shortly. 
+Node initialization happens with [rpi4ptt-init](https://github.com/resiliencetheatre/rpi4ptt-init) script which creates all needed
+connection artifacts and uses (insecure) /dev/urandom as sample for key material.
 
 ## Building
 
